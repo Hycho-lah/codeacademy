@@ -1,0 +1,147 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica;
+  color: seashell;
+  background-color:black;
+  opacity: 0.9;
+}
+
+header {
+  position: fixed;
+  background-color:black;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  z-index: 2;
+  display: flex;
+  text-align: right;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav {
+  font-size: 22px;
+  z-index: 4;
+  vertical-align: middle;
+}
+
+nav li{
+  display: inline-block;
+  text-decoration: underline;
+  padding: 10px;
+}
+
+header h1{
+  position: relative;
+  margin: auto;
+}
+
+#logo {
+  position: relative;
+  padding: 10px;
+  height: 50px;
+  display: inline-block;
+  z-index: 3;
+}
+
+#top {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+#top .title {
+  margin: auto;
+  background-color:black;
+  width: 100%;
+  text-align: center;
+}
+
+#teas {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tea{
+  padding: 10px;
+}
+
+.tea img {
+  height: 200px;
+  width: 300px;
+}
+
+#mid {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#mid .title {
+  text-align: center;
+}
+
+#teas .tea h4 {
+  padding: 0;
+  margin-top: 10;
+}
+
+#Locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-position: 50%;
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#boxes {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+}
+
+.box li{
+  margin-bottom: 40px;
+  display: block;
+  padding: 0;
+}
+
+#Locations h2{
+  padding: 0;
+}
+
+.box {
+  background-color: black;
+  width: 300px;
+  margin: 0px 20px 15px 20px;
+  text-align: center;
+}
+
+#footer{
+  text-align: center;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+#copyright {
+  margin-left: 20px;
+}
